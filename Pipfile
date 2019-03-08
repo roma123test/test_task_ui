@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "==2.53.1"
+seleniumwrapper = "*"
+pytest = "*"
+pytest-env = "*"
+virtualenv = "*"
+webdriver-manager = "*"
+pytest-sugar = "*"
+selene = "==1.0.0a13"
+
+[dev-packages]
+v = {version = "*", editable = true}
+
+[requires]
+python_version = '3.6'
+
+[pipenv]
